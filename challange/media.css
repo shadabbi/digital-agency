@@ -1,0 +1,674 @@
+
+
+@media(min-width:30rem){
+
+
+  #news .news-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #news .news-items .item {
+    width: 420px;
+    height: 572px;
+  }
+
+
+  #news .brands div{
+    width: 8rem;
+  }
+ 
+
+  #news .brands{ 
+    height: 60vh;
+  }
+
+
+}
+
+
+
+@media(min-width:40rem){
+    
+    #main-header .features h1{
+      font-size: 3.5rem;
+    }
+  
+    .services .group-1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .service{
+      width: 231px;
+      margin: 1rem;
+    }
+  
+    .features{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .service .icon-container1{
+      width: 3.6rem;
+    }
+  
+    .service .icon-container2{
+      width: 2.7rem;
+    }
+  
+    .service .icon-container3{
+      width: 2.5rem;
+    }
+  
+    
+  
+    .service .content h4{
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0;
+    }
+    .service .content p{
+        margin-top:0.6rem ;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+  
+    #services .all-services div{
+      padding: 0;
+      width: 200px;
+    }
+    
+  
+    #services .all-services {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 0 !important;  
+    }
+    #services .container{
+      margin: 0 6rem;
+    }
+  
+    #services .services-description{
+      width: 70%;
+    }
+  
+    #services .all-services div{
+      background: #f7f8fd ;
+     
+    }
+  
+    #services .all-services div i{
+      color: #ef0963;
+    }
+    #services .all-services div h3{
+      font-size: 1.3rem;
+      color: black;
+    }
+
+    #services .all-services div p{
+        color: #1d1d24bf;
+    }
+
+
+    #works .sub-heading{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    #works .facts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #works .facts .fact{
+        width: 270px;
+        padding: 1.2rem;
+    }
+
+
+  #testimonial .imgs img{
+      width: 95px;
+  }
+
+
+
+  #news .news-items .item {
+    width: 510px;
+    height: 695px;
+  }
+
+
+  #news .brands div{
+    width: 6rem;
+  }
+ 
+
+  #news .brands{ 
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+  }
+
+  
+.backto-top{
+  top: 80%;
+  left: 90%;
+}
+
+
+
+    }
+
+    
+
+
+
+
+    @media(min-width:48rem){
+    
+        #main-header .features h1{
+          font-size: 4.5rem;
+          font-weight: 900;
+          line-height: 5rem;
+        }
+    
+        .header-btn a{
+          display: inline-block;
+        }
+    
+        #logo-container{
+          width: 11.3rem;
+      }
+      
+        .services .group-1{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        
+        .service{
+          width: 331px;
+          margin: 1rem;
+        }
+      
+        .features{
+          display: flex;
+          justify-content: center;
+        }
+        
+        .service .icon-container1{
+          width: 4.2rem;
+        }
+      
+        .service .icon-container2{
+          width: 3.5rem;
+        }
+      
+        .service .icon-container3{
+          width: 3.5rem;
+        }
+      
+        
+      
+        .service .content h4{
+            font-weight: 400;
+            font-size: 1.5rem;
+            margin-top: 1.2rem;
+            margin-bottom: 0;
+        }
+        .service .content p{
+            margin-top:1.2rem ;
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+        }
+    
+    
+        #services .services-description h2{
+          font-size: 3.8rem;
+        }
+    
+        #services .services-description p{
+          font-size: 1.1rem;
+          margin-bottom: 1.5rem;
+        }
+
+
+        #services .all-services div{
+            padding: 0;
+            width: 300px;
+          }
+          
+        
+          /* #services .all-services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 0 !important;  
+          } */
+          #services .container{
+            margin: 0 4rem;
+          }
+        
+          #services .services-description{
+            width: 100%;
+          }
+/*         
+          #services .all-services div{
+            background: #f7f8fd ;
+           
+          } */
+        
+          /* #services .all-services div i{
+            color: #ef0963;
+          } */
+          #services .all-services div h3{
+            font-size: 1.5rem;
+            color: black;
+            margin-bottom: 0;
+          }
+      
+          #services .all-services div p{
+              margin-top: 0.5rem;
+              color: #1d1d24bf;
+              font-size: 1.1rem;
+              line-height: 2rem;
+          }
+
+
+
+          #works  h3{
+            margin: 2rem 0;
+            font-size: 2.2rem;
+          }
+        
+          #works .fact h5{
+            font-size: 5rem;
+          }
+        
+          #works .fact h5::after{
+            font-size: 2.5rem;
+          }
+
+          #works .facts .fact{
+              width: 230px;
+              margin: 0;
+              text-align: center;
+          }
+
+          #works .facts{
+            max-width: 1100px;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+ 
+
+  #testimonial .container{
+    margin: 0 1.5rem;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  #testimonial .container p{
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+  }
+
+
+  #testimonial .imgs:first-of-type{
+    margin-top: 2rem;
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  #testimonial img{
+    padding: 1rem;
+  }
+
+
+ #news .heading{
+   font-size: 52px;
+ }
+
+ #news .description{
+   font-size: 18px;
+   width: 70%;
+ }
+  #news .news-items .item {
+    width: 330px;
+    height: 450px;
+    margin-left: 2rem;
+  }
+
+  #news .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  #news .more{
+    margin-top: 1.2rem;
+  }
+
+
+  #news .news-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  #news .brands div{
+    width: 8rem;
+  }
+
+
+  
+  #contact .item1{
+   
+    height: 80vh;
+    padding: 1.5rem;
+  }
+
+  #contact .item1 h2{
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+
+
+  #contact .item1 a{
+    border-width: 2px;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  
+
+
+    }
+
+        
+
+
+
+        @media(min-width:62rem) {
+    
+            #main-header .features h1{
+              font-size: 6.7rem;
+              font-weight: 900;
+              line-height: 7rem;
+              margin-top: 4rem;
+            }
+
+            #main-header .container{
+                padding: 2rem 1.0rem;
+            }
+      
+            .main-navbar{
+              display: inline-block;
+            }
+      
+            #menu button{
+              display: none;
+            }
+          
+            .services .group-1{
+              display: flex;
+              flex-wrap: nowrap;
+              justify-content: space-between;
+            }
+      
+            .services{
+              display: flex;
+              flex-wrap: wrap;
+            }
+            
+            .service{
+              width: 26vw;
+              margin: 1rem;
+            }
+      
+            .service:last-of-type{
+              margin-left: 3rem;
+            }
+          
+            .features{
+              display: block;
+            }
+            
+            
+          
+            .service .content h4{
+                font-weight: 400;
+                font-size: 1.5rem;
+                margin-top: 1.2rem;
+                margin-bottom: 0;
+            }
+            .service .content p{
+                margin-top:1.2rem ;
+                font-weight: 300;
+                font-size: 1.2rem;
+                line-height: 2.2rem;
+            }
+      
+            #about .container{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            }
+      
+            #about .about-who{
+              display: flex;
+              justify-content: flex-start;
+            }
+      
+            #about .about-who div{
+              padding-right: 1rem;
+            }
+           
+            #about .container .about-description{
+              padding: 3rem;
+            }
+      
+            #about .heading{
+              font-size: 3.5rem;
+          }
+      
+         #about .description{
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #717173;
+            margin: 0;
+            line-height: 2rem;
+        }
+      
+        #about .about-who{
+          margin-top: 2.5rem;
+        }
+      
+        
+
+        #services .all-services div{
+            padding: 0 1rem;
+            width: 40%;
+          }
+          
+        
+          #services .all-services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 0 !important; 
+            margin-left: 5rem; 
+          }
+          #services .container{
+            margin: 0 3rem;
+          }
+
+          #services .container > div{
+              display: flex;
+              justify-content: center;
+          }
+        
+          #services .services-description{
+            width: 50%;
+          }
+
+          #services .services-description h2{
+            font-size: 3rem;
+          }
+        
+          
+        
+          #services .all-services div h3{
+            font-size: 1.3rem;
+            color: black;
+          }
+      
+          #services .all-services div p{
+              color: #1d1d24bf;
+          }
+      
+          #works .facts .fact{
+            width: 30%;
+            margin: 0;
+            text-align: center;
+            padding: 0;
+        }
+
+
+
+        #news .news-items {
+          justify-content: space-between;
+        }
+      
+        #news .container{
+          display: block;
+        }
+      
+       
+        #news .news-description-container{
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        #news .more{
+          margin-top: 0;
+          align-self: flex-end;
+        }
+      
+      
+      
+        #news .news-items .item {
+          width: 390px;
+          height: 532px;
+          margin-left: 0;
+        }
+
+
+        #news .brands div{
+          width: 8.2rem;
+        }
+       
+      
+        #news .brands{ 
+          height: 70vh;
+          width: 80vw;
+          justify-content: center;
+        }
+
+        #news .brands div{
+          margin-left: 2rem;
+        }
+
+        #footer-section .footer-container{
+          display: flex;
+        }
+      
+        #footer-section .contact-container{
+          width: 50vw;
+          /* height: 100vh; */
+        }
+      
+        #footer-section #contact{
+          width: 100%;
+          height: 100%;
+        }
+      
+        #footer-section #contact .container{
+          height: 100%;
+        }
+      
+        #footer-section .container .item{
+          height: 100%;
+        }
+      
+        #footer-section footer{
+          width: 50vw;
+        }
+      
+       
+          
+            }
+      
+
+            @media(min-width:1200px){
+                #services .all-services div{
+                    padding: 0 1rem;
+                    width: 45%;
+        
+                  }
+                  
+                
+                  #services .all-services {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin-top: 0 !important; 
+                    margin-left: 5rem; 
+                  }
+                  #services .container{
+                    margin: 0 3rem;
+                  }
+        
+                  #services .container > div{
+                      display: flex;
+                      justify-content: center;
+                  }
+                
+                  #services .services-description{
+                    width: 100%;
+                  }
+        
+                  #services .services-description h2{
+                    font-size: 3.6rem;
+                  }
+                
+                  
+                
+                  #services .all-services div h3{
+                    font-size: 1.3rem;
+                    color: black;
+                  }
+              
+                  #services .all-services div p{
+                      color: #1d1d24bf;
+                  }
+              
+            }
+      
